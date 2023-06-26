@@ -1,0 +1,18 @@
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\bin\Debug\Fruits System.exe.config
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\bin\Debug\Fruits System.exe
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\bin\Debug\Fruits System.pdb
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.csproj.AssemblyReference.cache
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\MainWindow.g.cs
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\App.g.cs
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System_MarkupCompile.cache
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System_MarkupCompile.lref
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\MainWindow.baml
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.g.resources
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits_System.Properties.Resources.resources
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.csproj.GenerateResource.cache
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.csproj.CoreCompileInputs.cache
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.exe
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Fruits System.pdb
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Sale.g.cs
+C:\Users\Bing Yan\Desktop\adesk application\assignment\assignment1\Fruits System\Fruits System\obj\Debug\Sale.baml

@@ -1,0 +1,35 @@
+﻿<Window x:Class="Fruits_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fruits_System"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Fruits Sale" HorizontalAlignment="Left" Height="50" Margin="170,40,0,0" VerticalAlignment="Top" Width="450" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Name" HorizontalAlignment="Left" Height="27" Margin="123,112,0,0" VerticalAlignment="Top" Width="46" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="NameText" HorizontalAlignment="Left" Height="27" Margin="169,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="95"/>
+        <Label Content="ID" HorizontalAlignment="Left" Height="27" Margin="269,112,0,0" VerticalAlignment="Top" Width="31" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="IdText" HorizontalAlignment="Left" Height="27" Margin="300,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <Label Content="Amount(kg)" HorizontalAlignment="Left" Height="27" Margin="407,112,0,0" VerticalAlignment="Top" Width="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="AmountText" HorizontalAlignment="Left" Height="27" Margin="482,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <Label Content="Price(CAD)/kg" HorizontalAlignment="Left" Height="27" Margin="594,112,0,0" VerticalAlignment="Top" Width="84" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="PriceText" HorizontalAlignment="Left" Height="27" Margin="678,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <Button x:Name="SelectBtn" Content="SELECT" HorizontalAlignment="Left" Height="26" Margin="54,225,0,0" VerticalAlignment="Top" Width="83" Foreground="#FFFB0707" Background="#FF4FEE1A" Click="SelectBtn_Click"/>
+        <Button x:Name="InsertBtn" Content="INSERT" HorizontalAlignment="Left" Height="26" Margin="54,166,0,0" VerticalAlignment="Top" Width="82" Foreground="#FFFB0707" Background="#FF4FEE1A" Click="InsertBtn_Click"/>
+        <Button x:Name="UpdateBtn" Content="UPDATE" HorizontalAlignment="Left" Height="26" Margin="53,284,0,0" VerticalAlignment="Top" Width="83" Foreground="#FFFB0707" Background="#FF4FEE1A" Click="UpdateBtn_Click"/>
+        <Button x:Name="DeleteBtn" Content="Delete" HorizontalAlignment="Left" Height="26" Margin="54,343,0,0" VerticalAlignment="Top" Width="83" Foreground="#FFFB0707" Background="#FF4FEE1A" Click="DeleteBtn_Click"/>
+        <Button x:Name="SaleBtn" Content="SALE" HorizontalAlignment="Left" Height="26" Margin="53,47,0,0" VerticalAlignment="Top" Width="82" Foreground="#FFFB0707" Background="#FF030B00" Click="SaleBtn_Click"/>
+        <DataGrid x:Name="dataGridView1" SelectionChanged="dataGridView1_SelectionChanged" AutoGenerateColumns="False" HorizontalAlignment="Center" Height="203" Margin="169,166,0,0" VerticalAlignment="Top" Width="471" d:ItemsSource="{d:SampleData ItemCount=5}">
+        <DataGrid.Columns>
+            
+            <DataGridTextColumn Header="Product Name" Binding="{Binding ProductName}" Width="180"/>
+            <DataGridTextColumn Header="Product ID" Binding="{Binding ProductID}" Width="120"/>
+            <DataGridTextColumn Header="Amount(kg)" Binding="{Binding Amount}" Width="80"/>
+            <DataGridTextColumn Header="Price(CAD)/kg" Binding="{Binding Price}" Width="90"/>
+        </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>
